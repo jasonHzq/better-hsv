@@ -1,0 +1,49 @@
+{
+  "name": "better-hsv",
+  "version": "0.1.0",
+  "description": "better hsv",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.js",
+    "clean": "rm -rf build",
+    "lint": "eslint src test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jasonHzq/better-hsv.git"
+  },
+  "keywords": [
+    "hsv"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.1.21",
+    "babel-eslint": "^4.1.5",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "eslint": "^1.9.0",
+    "eslint-config-airbnb": "^1.0.0",
+    "eslint-plugin-react": "^3.10.0",
+    "isparta": "^4.0.0",
+    "istanbul-instrumenter-loader": "^0.1.3",
+    "webpack": "^1.12.8"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "maintainers": [
+    {
+      "name": "zongquan.hzq",
+      "email": "zongquan.hzq@alibaba-inc.com"
+    }
+  ],
+  "author": "zongquan.hzq",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.18.0"
+  }
+}
