@@ -32,16 +32,13 @@
     "istanbul-instrumenter-loader": "^0.1.3",
     "webpack": "^1.12.8"
   },
-  "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
-  },
   "maintainers": [
     {
-      "name": "zongquan.hzq",
-      "email": "zongquan.hzq@alibaba-inc.com"
+      "name": "hzongquan",
+      "email": "hzongquan@126.com"
     }
   ],
-  "author": "zongquan.hzq",
+  "author": "hzongquan",
   "license": "MIT",
   "dependencies": {
     "ramda": "^0.18.0"
