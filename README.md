@@ -10,11 +10,7 @@ It's a HSV color bar where each color has the equality saturation and value in H
 
 For example, here are two colors with a HEX format: '#AACC99' and '#88CC00', the HSV values of both colors are 0xCC. It's the reason for the color bar above.
 
-To get a better hsv model, I think the value property should be calculated by an area of this;
-
-![triangle](http://cbu01.alicdn.com/cms/upload/detail/tg/triangle.jpg)
-
-And this is a color bar by better hsv.
+And this is a color bar by my better hsv.
 
 ![better hsv](http://cbu01.alicdn.com/cms/upload/detail/hsv/better_hsv.png)
 
