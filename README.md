@@ -1,4 +1,4 @@
-###better HSV
+### better HSV
 
 HSV is an abbreviation to hue, saturation and value.
 
@@ -14,7 +14,7 @@ And this is a color bar by my better hsv.
 
 ![better hsv](http://cbu01.alicdn.com/cms/upload/detail/hsv/better_hsv.png)
 
-###API
+### API
 
 ```
 /*
